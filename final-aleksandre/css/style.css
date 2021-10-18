@@ -1,0 +1,379 @@
+@font-face { font-family: Italic; src: url('../fonts/italic.ttf'); }
+@font-face { font-family: thin; src: url('../fonts/thin.ttf'); }
+* {
+    font-family: Thin;
+}
+p { 
+    outline: #707070;
+    color: #262222;
+}
+html, body {
+    max-width: 100%;
+    overflow-x: hidden;
+    scroll-behavior:smooth
+}
+/* +++++++++++++++++++=========================*/
+/* Header */
+.flex-header {
+    display: flex;
+    justify-content: start;
+    justify-content: space-between;
+}
+.flex-header {
+    margin: 20px 100px;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+li {
+    float: left;
+}
+li a {
+    display: block;
+    color: #495254;
+    text-align: center;
+    padding: 12px 20px;
+    text-decoration: none;
+}
+li a :hover {
+    color: #47AEE1;
+}
+li a .GetQoute {
+    color: #fff;
+    background-color: #47AEE1;
+    border-radius: 25px;
+    padding: 10px 20px;
+}
+
+/* Section1 */
+
+.flex-container1 {
+   display: flex;
+   justify-content: center;
+   justify-content: space-between;
+   margin-bottom: 100px;
+}
+.text1 {
+    margin-top: 70px;
+}
+.title1 {
+   font-size: 34px;
+   font: sans-serif;
+} 
+.Build {
+    font-weight: bold;
+    color: #47AEE1;
+}
+.p1 {
+   color: #262222;
+   font-size: 16px;
+   margin-top: 100px;
+   margin-bottom: 30px;
+}
+.Explore {
+    color: #fff;
+    background-color: #47AEE1;
+    border-radius: 15px;
+    padding: 10px 25px;
+    text-decoration: none;
+}
+.imag2 {
+   width: 500px;
+   height: auto;
+}
+/* section2 */
+.section2 {
+    background-image: url("../images/ServicesBackground.png");
+}
+.flex-container2 {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+.title2 {
+    font-weight: bold;
+    font-size: 30px;
+    color: #262222;
+}
+.flex-container3 {
+    margin: 100px 0px;
+    padding: 150px 0px 50px 0px;
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+}
+.flex-container3 :hover {
+    background-color: #47E1AE;
+    transition: all .4s ease;
+    -webkit-transition: all .4s ease;
+}
+.img3 {
+    height: 150px;
+    width: auto;
+    
+}
+.title3 {
+    text-align: center;
+    font-size: 20px;
+    color: #262222;
+}
+.box1 {
+    padding: 20px 30px; 
+    background-color: #fff;
+    border-radius: 20px;
+}
+.margin {
+    margin: 20px 150px;
+}
+/* section3 */
+.flex-container4 {
+    margin: 50px 0 20px 0;
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+}
+.img4 {
+    width: 350px;
+    height: auto;
+}
+.bigtext {
+    margin-top: 50px;
+}
+/* section4 */
+.section4 {
+    background-image: url("../images/Background.png"); 
+    background-repeat: no-repeat;
+    background-size: 1330px auto;
+}
+.portfolio {
+    padding-top: 100px;
+}
+.flex-container5 {
+    font-size: 24px;
+    margin: 50px 0px;
+    display: flex;
+    justify-content: center;
+    justify-content: space-evenly;
+}
+.lilnav {
+    text-decoration: none;
+}
+.lilnav :hover {
+    color: #fff;
+    transition: all .4s ease;
+    -webkit-transition: all .4s ease;
+}
+.Allwork {
+    color: #fff;;
+}
+.flex-container6 {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.img5 {
+    width: 280px;
+    height: auto;
+}
+.flex-container7 {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 50px;
+}
+.viewall {
+    margin-top: 30px;
+    margin-bottom: 50px;
+    background-color: #47AEE1;
+    border-radius: 20px;
+    padding: 0px 30px;
+    text-decoration: none;
+    font-weight: bold;
+}
+.viewall p {
+    color: #fff;
+}
+/* section5 */ 
+body {
+    margin: 0;
+}
+.flex-contact {
+    display: flex;
+    justify-self: center;
+}
+.flex-container2 {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+.title2 {
+    font-weight: bold;
+    font-size: 30px;
+    color: #262222;
+}
+.profile {
+    width: 150px;
+    height: auto;
+    border-radius: 100px;
+}
+.profiletitle {
+    font-size: 20px;
+}
+.flex-container8 {
+    margin-top: 20px;
+    height: 100%;
+    background: linear-gradient(180deg, #fff 50%, #47AEE1 50%);
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    padding-bottom: 30px;
+}
+.box {
+    background-color: #fff;
+    border-radius: 25px;
+    padding: 15px 25px;
+    text-align: center;
+}
+.flex-container8 :hover {
+    background-color: #47AEE1;
+    transition: all .3s ease;
+    -webkit-transition: all .3s ease;
+}
+/* section6 */
+.section6 {
+    background-color: #47e1ae15;
+    padding: 50px 0;
+}
+.flex-contact {
+    display: flex;
+    justify-self: center;
+}
+.flex-container2 {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+.title2 {
+    font-weight: bold;
+    font-size: 30px;
+    color: #262222;
+}
+.Submit-Email {
+    margin: 10px;
+    display: flex;
+    justify-content: center;
+}
+
+.Submit-Email input {
+    width: 250px;
+    height: 5vh;
+    border: 0.3px solid #ccc;
+    border-radius: 10px;
+    padding-left: 10px;
+}
+
+.Submit-Email button {
+    width: 100px;
+    height: 5vh;
+    border: none;
+    background-color: #47AEE1;
+    cursor: pointer;
+    color: white;
+    border-radius: 15px;
+    position: relative;
+    right: 20px;
+}
+/* section7 */
+.flex-container9 {
+    display: flex;
+    justify-content: start;
+    gap: 100px;
+}
+.box2 {
+    background-image: url("../images/Contact\ Form\ Background.png");
+    background-repeat: no-repeat;
+    background-size: 600px auto;
+    padding: 150px;
+}
+.Submit2 {
+    margin: 10px 0;
+}
+.Submit2 input {
+    width: 400px;
+    height: 35px;
+    border: 0.3px solid #ccc;
+    border-radius: 25px;
+}
+.Submit3 {
+    margin: 10px 0;
+}
+.Submit3 input {
+    width: 400px;
+    height: 150px;
+    border: 0.3px solid #ccc;
+    border-radius: 25px;
+}
+.p3 {   
+    color: #fff;
+    margin-left: 10px;
+}
+.submit {
+    font-weight: bold;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 15px;
+    background-color: #47E1AE;
+    text-decoration: none;
+}
+.submitbox {
+    margin: 20px 0;
+}
+/* footer */ 
+footer {
+    background-color: #495254;
+    padding: 50px 0 100px 0;
+}
+.flex-container10 {
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+}
+.flex-container11 {
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+}
+.liltext2 {
+    text-decoration: none;
+}
+.textlast {
+    color: #fff;
+}
+.logo2 {
+    width: 200px;
+    height: auto;
+}
+.Submit-Email2 {
+    margin: -10px 0 70px 0;
+
+}
+.Submit-Email2 input {
+    width: 250px;
+    height: 5vh;
+    border: 0.3px solid #ccc;
+    border-radius: 10px;
+    padding-left: 10px;
+}
+
+.Submit-Email2 button {
+    width: 100px;
+    height: 5vh;
+    border: none;
+    background-color: #47AEE1;
+    cursor: pointer;
+    color: white;
+    border-radius: 15px;
+}
